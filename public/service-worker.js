@@ -1,20 +1,22 @@
-const timestamp = 1645457563729;
+const timestamp = 1645460979528;
 const build = [
-  "/_app/start-6b6f7259.js",
-  "/_app/pages/__layout.svelte-068dcebd.js",
-  "/_app/assets/pages/__layout.svelte-85eb94b3.css",
-  "/_app/pages/__error.svelte-be022836.js",
-  "/_app/pages/index.svelte-2a1a2561.js",
-  "/_app/pages/register.svelte-8ef8df73.js",
-  "/_app/pages/login.svelte-ab0e7ec4.js",
-  "/_app/pages/demo/index.svelte-34086b0b.js",
-  "/_app/pages/demo/components/form.svelte-f70eb59f.js",
-  "/_app/pages/demo/components.svelte-fea2ac12.js",
-  "/_app/pages/app/__layout.svelte-10175ac7.js",
-  "/_app/pages/app/index.svelte-9bc17fb0.js",
-  "/_app/chunks/vendor-c9bfeb66.js",
-  "/_app/chunks/index-4b8ee9ee.js",
+  "/_app/start-4a05044a.js",
+  "/_app/pages/__layout.svelte-b7b664e8.js",
+  "/_app/assets/pages/__layout.svelte-20de8a23.css",
+  "/_app/pages/__error.svelte-ade55ee4.js",
+  "/_app/pages/index.svelte-340a3b8a.js",
+  "/_app/pages/register.svelte-4a720bd7.js",
+  "/_app/pages/login.svelte-c144121f.js",
+  "/_app/pages/demo/__layout.svelte-91f24885.js",
+  "/_app/pages/demo/index.svelte-6c05304c.js",
+  "/_app/pages/demo/components/form.svelte-b557df46.js",
+  "/_app/pages/demo/components.svelte-16a32c9d.js",
+  "/_app/pages/app/__layout.svelte-45c5094d.js",
+  "/_app/pages/app/index.svelte-b67299c5.js",
+  "/_app/chunks/vendor-4d9e2aef.js",
+  "/_app/chunks/index-9b66a2c6.js",
   "/_app/assets/index-9754b717.css",
+  "/_app/chunks/variables-dacf274e.js",
   "/_app/chunks/index-23ab41d1.js"
 ];
 const files = [
