@@ -6,5 +6,6 @@ node_modules
 .env
 .env.*
 !.env.example
+/public
 /public/_app/_app/
 /public/_app/_app/*
