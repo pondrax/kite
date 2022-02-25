@@ -7,7 +7,7 @@
 	export let left = false;
 	export let right = false;
 	export let hover = false;
-
+  
 </script>
 
 <div
@@ -22,7 +22,7 @@
 	<div tabindex="0" class="m-1">
 		<slot />
 	</div>
-  <div tabindex="0" class="p-2 bg-base-100 shadow menu dropdown-content rounded-box w-52">
-    <slot name="menu"/>
-  </div>
+	<div tabindex="0" class="p-2 bg-base-100 shadow dropdown-content rounded-box w-52">
+		<slot name="menu" />
+	</div>
 </div>

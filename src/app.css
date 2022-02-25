@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mobile ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: none;
+}
+@media screen and (max-width: 480px){
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    /* display: none; */
+  }
+}
+::-webkit-scrollbar {
+  /* width of the entire scrollbar */
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  /* color of the tracking area */
+  /* background: hsl(var(--b3));      */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--b3));    /* color of the scroll thumb */
+  border-radius: 20px;      
+   /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+
+:root,
+*{
+  scrollbar-color: hsl(var(--p)) transparent !important;
+  /* scrollbar-color: hsl(var(--n)) hsl(var(--b3)) !important; */
+  scrollbar-width: thin !important;
+}
+
+.microlight {
+  font-family : monospace;
+  white-space : pre;
+  /* background-color : #C4E4E8; */
+  color            :hsl(var(--nc));    
+}
+.bg-dot{ 
+  background-image: radial-gradient(hsl(var(--n)) 20%, transparent 20%);
+  background-position: 0 0;
+  background-size: 5px 5px;
+}

@@ -1,3 +1,3 @@
-export const Log = (props)=>{
-  return JSON.stringify(props, null, 2);
-}
+export const Log = (props) => {
+	return JSON.stringify(props, null, 2);
+};
